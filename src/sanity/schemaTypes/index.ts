@@ -1,5 +1,4 @@
-import { type SchemaTypeDefinition } from 'sanity'
+import { postType } from './post'
 
-export const schema: { types: SchemaTypeDefinition[] } = {
-  types: [],
-}
+// Add more types as needed
+export const schemaTypes = [postType]
